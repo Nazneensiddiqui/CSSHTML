@@ -1,0 +1,38 @@
+.ch{background-color: aqua;
+border:2px solid;}
+
+.container{
+    height: 100vh;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 100px 100px 200px;
+    
+}
+.ch1{ grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.ch2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.ch5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.ch6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.papa{background-color: blueviolet;
+height:100vh;
+display: grid;
+grid-template-columns: repeat(4,auto);
+grid-template-rows:100px 100px 100px 100px;}
+
+.son{ background-color: yellow;
+border:2px solid;}

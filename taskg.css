@@ -1,0 +1,47 @@
+.son{ background-color: aqua;
+border: 2px solid; gap:50px;}
+
+.papa{ background-color:aqua;
+height: 100vh; grid-template-columns: repeat(5,auto);
+grid-template-rows: repeat(2,auto); display: grid;
+}
+
+.son1{ grid-row-start: 1;
+grid-row-end: 6; background-color: black; color: aliceblue;} 
+
+ .son1 h1{ color: antiquewhite;}
+ .icon{ color: antiquewhite; font-size: 20px;}
+ 
+
+.son2{ grid-column-start: 2;
+grid-column-end:6; background-color: yellow; height: 100px; 
+display: flex;
+align-items: center; justify-content: space-between;}
+ 
+
+.son3{ grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3; background-color: lightcoral;
+ margin: 20px;
+border-radius: 30px;}
+
+.son4{ grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3; background-color: blue;
+margin: 20px; border-radius: 30px;}
+
+.son5 {grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: brown;
+margin: 20px; border-radius: 30px;}
+
+.son6{ grid-column-start: 5;
+grid-column-end: 6;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color: lightgreen; margin: 20px;border-radius: 30px;}
+
